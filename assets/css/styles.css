@@ -1,0 +1,64 @@
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video
+{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}
+
+
+
+
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+body{line-height:1}ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+table{border-collapse:collapse;border-spacing:0}
+
+
+a:hover{text-decoration: underline;}
+
+
+body    {font-family: 'Lato', sans-serif; color: #fff;}
+
+
+h1      {font-size:120px; font-weight: 100; text-align: center; margin-bottom: 60px;}
+h1 span {font-weight: 500;}
+
+h2      {font-size: 36px; padding: 0 0 20px 0; font-weight: 700;}
+
+p       {font-size:24px; font-weight: 300; line-height:110%; -webkit-font-smoothing: subpixel-antialiased;}
+p span  {font-size:16px; font-style: italic; display: block; margin-top: 20px;}
+
+
+.l-text     {text-align: right; width: 450px; float: left;}
+.r-text     {text-align: left; width: 450px; float: right;}
+#la-chaise  {width: 400px;}
+
+.l-image    {float: left; width: 451px;}
+.r-image    {float: right; width: 451px;}
+#chaise     {float: right; width: 581px;}
+
+.l-image img    {max-width:100%;}
+.r-image img    {max-width:100%;}
+#chaise img     {max-width:100%;}
+
+
+.container {position:absolute; top:50%; left:50%; margin:-250px 0 0 -512px; width:1024px; height: 500px;} 
+
+
+
+/*Primeira Página*/
+    #section-1          {background-color: #25315a;padding-top: 20%} 
+    #section-1 .header  {position:absolute; top:30%; left:50%; margin:-0px 0 0 -400px; width:800px; text-align:center;}
+    #section-1 img      {position:absolute; top: -175px; left:50%; margin: 0 0 0 -175px;} 
+    /* 175, acima é metade do tamanho da imagem*/
+
+/*Segunda Página*/
+    #section-2          {background-color: #33447e;}
+    #section-2 .r-text  {margin: 138px 0 0 0;}
+    #map                {margin-top: 138px}
+    
+/*Para mais curtinas, copiar o css acima e trocar o número da section*/
+
+
+
+
+
+
