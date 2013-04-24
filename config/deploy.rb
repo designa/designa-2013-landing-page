@@ -1,5 +1,5 @@
 require 'capistrano_colors'
-require 'bundler/capistrano'
+#require 'bundler/capistrano'
 
 #---------------------------------------
 # Servidor
@@ -26,7 +26,7 @@ ssh_options[:forward_agent] = true
 #---------------------------------------
 after 'deploy:update_code' do
   deploy.symlink
-  deploy.migrate
+  #deploy.migrate
 end
 
 
