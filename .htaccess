@@ -1,0 +1,10 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteCond %{http_host} ^www.designa.com.br [NC]
+RewriteRule ^(.*)$ http://designa.com.br/$1 [R=301,L]
+
+RewriteCond %{http_host} ^www.designasolucoes.com.br [NC]
+RewriteRule ^(.*)$ http://designa.com.br/$1 [R=301,L]
+
+RewriteCond %{http_host} ^designasolucoes.com.br [NC]
+RewriteRule ^(.*)$ http://designa.com.br/$1 [R=301,L]
