@@ -45,14 +45,14 @@ p span  {font-size:16px; font-style: italic; display: block; margin-top: 20px;}
 
 
 /*Primeira Página*/
-    #section-1          {background-color: #25315a;padding-top: 20%}
-    #section-1 .header  {position:absolute; top:30%; left:50%; margin:-0px 0 0 -400px; width:800px; text-align:center;}
-    #section-1 img      {position:absolute; top: -175px; left:50%; margin: 0 0 0 -175px;}
+    #home          {background-color: #25315a;padding-top: 20%}
+    #home .header  {position:absolute; top:30%; left:50%; margin:-0px 0 0 -400px; width:800px; text-align:center;}
+    #home img      {position:absolute; top: -175px; left:50%; margin: 0 0 0 -175px;}
     /* 175, acima é metade do tamanho da imagem*/
 
 /*Segunda Página*/
-    #section-2          {background-color: #393f6e;}
-    #section-2 .r-text  {margin: 138px 0 0 0;}
+    #contato          {background-color: #393f6e;}
+    #contato .r-text  {margin: 138px 0 0 0;}
     #map                {margin-top: 138px}
 
 /*Para mais curtinas, copiar o css acima e trocar o número da section*/
